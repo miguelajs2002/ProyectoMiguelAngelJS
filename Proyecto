@@ -1,0 +1,20 @@
+
+#define L 10
+
+int array[]={1,1,2,3,5,8,13,21,34,55};
+int n=0;
+
+int sequence(int array[], int n){
+    int result, aux=0;
+    for(int a=0; a<=L; a++){
+        result= array[n+1]-array[n];
+        aux=result + aux;
+        n++;
+    }
+    return aux;
+}
+
+int main() {
+    sequence (array, n);
+    return 0;
+}
