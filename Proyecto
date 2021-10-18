@@ -1,7 +1,7 @@
 
 #define L 10
 
-int array[]={1,1,2,3,5,8,13,21,34,55};
+int array[L]={1,1,2,3,5,8,13,21,34,55};
 int n=0;
 
 int sequence(int array[], int n){
