@@ -6,7 +6,7 @@ int n=0;
 
 int sequence(int array[], int n){
     int result, aux=0;
-    for(int a=0; a<=L; a++){
+    for(int a=0; a<9; a++){
         result= array[n+1]-array[n];
         aux=result + aux;
         n++;
