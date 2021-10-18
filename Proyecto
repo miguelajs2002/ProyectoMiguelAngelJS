@@ -1,17 +1,16 @@
-
 #define L 10
 
 int array[L]={1,1,2,3,5,8,13,21,34,55};
 int n=0;
 
 int sequence(int array[], int n){
-    int result, aux=0;
+    int result, sum=0;
     for(int a=0; a<9; a++){
         result= array[n+1]-array[n];
-        aux=result + aux;
+        sum=result + sum;
         n++;
     }
-    return aux;
+    return sum;
 }
 
 int main() {
